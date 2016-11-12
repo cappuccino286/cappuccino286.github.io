@@ -1,0 +1,121 @@
+body{
+	font: 400 15px Lato, sans-serif;
+}
+.jumbotron{
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 0;
+}
+#jumbo1{
+	background-image: url("../img/jumbo2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#eee;
+}
+canvas{
+	position: absolute;
+	right: 0;
+}
+a:hover,a:focus{
+	text-decoration: none;
+	outline:none;
+}
+.jumbotron>.container>h2{
+	color:#4a4a4a;
+	font-weight: bold;
+	font-size: 37px;
+}
+.projetHidden{
+	visibility: hidden;
+}
+a.projet{
+	margin:auto;
+	width:80%;
+	height: 480px;
+	display: block;
+	background-color: #1c1d25;   
+	font-weight: bold;
+	color:#eee;
+	position: relative;
+	font-style: italic;
+	box-shadow: 0 20px 80px 0 rgba(0,0,0,.65);
+	animation-name: slide;
+    animation-duration: 1s;
+	visibility: visible;
+}
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+.mask{
+	transition: all .5s ease;
+	position: absolute;
+	height:0;
+	background:#1c1d25; 
+	opacity:.6;
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	box-shadow: 0 20px 80px 0 rgba(0,0,0,.65);
+}
+a.projet:hover>.mask{
+	height:0;
+}
+.projet h1{
+	font-size:120px;
+}
+.projet>div:last-child{
+	text-align: right;
+	position: absolute;
+	right:10px;
+	bottom: 0;
+}
+.projet div h3{
+	font-size:60px;
+}
+#projet1{
+	background-image: url("../img/projet1.png");
+	background-size: cover;
+}
+#projet2{
+	background-image: url("../img/projet2.png");
+	background-size: cover;
+}
+footer{
+	padding: 50px 0;
+	background-color: #1c1d25; 
+	color:#eee;
+}
+footer a, footer a:hover{
+	color:#eee;
+}
+footer ul{
+	list-style: none;
+}
+footer ul li{
+	display: inline;
+	padding-right: 30px;
+}
+footer .fa{
+	vertical-align: sub;
+}
+footer>div{
+	width:60%;
+	margin:auto;
+}
