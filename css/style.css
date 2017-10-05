@@ -97,6 +97,10 @@ a.projet:hover>.mask{
 	background-image: url("../img/projet2.png");
 	background-size: cover;
 }
+#projet3{
+	background-image: url("../img/projet3.png");
+	background-size: cover;
+}
 footer{
 	padding: 50px 0;
 	background-color: #1c1d25; 
