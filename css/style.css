@@ -103,7 +103,7 @@ a.projet:hover>.mask{
 }
 #projet4{
 	background-image: url("../img/projet4.jpg");
-	background-size: cover;
+	background-size: contain;
 }
 #projet5{
 	background-image: url("../img/projet5.png");
