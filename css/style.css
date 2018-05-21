@@ -24,10 +24,13 @@ a:hover,a:focus{
 	font-weight: bold;
 	font-size: 37px;
 }
+.projet{
+	margin-bottom: 60px;
+}
 .projetHidden{
 	visibility: hidden;
 }
-a.projet{
+a.projetHidden{
 	margin:auto;
 	width:80%;
 	height: 480px;
@@ -102,7 +105,7 @@ a.projet:hover>.mask{
 	background-size: cover;
 }
 #projet4{
-	background-image: url("../img/projet4.jpg");
+	background-image: url("../img/projet4.png");
 	background-size: cover;
 }
 #projet5{
