@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Salut</title>
     <link href="img/logo.png" rel="shortcut icon">
@@ -10,75 +11,97 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
 </head>
-<body ng-app="myApp">
-   <div class="jumbotron" id="jumbo1">
+
+<body>
+    <div class="jumbotron" id="jumbo1">
         <div class="container">
             <h1>Je suis @Sy Hung</h1>
             <p>Étudiant de l'Université de Technologie de Troyes</p>
-            <div><canvas width="800" height="400" id="myCanvas"></canvas></div>
+            <div>
+                <canvas width="800" height="400" id="myCanvas"></canvas>
+            </div>
         </div>
-   </div>
-   <div class="jumbotron">
+    </div>
+    <div class="jumbotron">
         <div class="container">
             <h2 class="text-center">Projets Réalisés</h2>
-            <a class="projetHidden" id="projet1" target="_blank" href="http://www.silverbullets.xyz">
-                <div class="mask"></div>
-                <h1>01</h1>
-                <div>
-                    <h3>ICDUTT</h3>
-                    <p>Publications de l'Université de Technologie de Troyes</p>
-                </div>
-            </a>
-            <br/><br/><br/><br/><br/>
-            <a class="projetHidden" id="projet2" target="_blank" href="https://github.com/cappuccino286/Menhir">
-                <div class="mask"></div>
-                <h1>02</h1>
-                <div>
-                    <h3>Menhir</h3>
-                    <p>Jeu de société "Menhir" sur la base de Java Swing</p>
-                </div>
-            </a>
-            <br/><br/><br/><br/><br/>
-            <a class="projetHidden" id="projet3" target="_blank" href="https://github.com/cappuccino286/scrapy_conan">
-                <div class="mask"></div>
-                <h1>03</h1>
-                <div>
-                    <h3>scrappy_conan</h3>
-                    <p>Extraction des donnée de BD "Detective Conan"</p>
-                </div>
-            </a>
-			<br/><br/><br/><br/><br/>
-            <a class="projetHidden" id="projet4" target="_blank" href="https://github.com/cappuccino286/CircuitRV">
-                <div class="mask"></div>
-                <h1>04</h1>
-                <div>
-                    <h3>CircuitRV</h3>
-                    <p>Réalisation des expériences virtuelles autour de l'électricité + QCM</p>
-                </div>
-            </a>
+            <div class="projet">
+                <a class="projetHidden" id="projet1" target="_blank" href="https://cappuccino286.github.io/Socialbakers">
+                    <div class="mask"></div>
+                    <h1>01</h1>
+                    <div>
+                        <h3>Socialbakers</h3>
+                        <p>Extract top 50 brands Facebook pages from Socialbakers</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projet">
+                <a class="projetHidden" id="projet2" target="_blank" href="https://github.com/cappuccino286/Menhir">
+                    <div class="mask"></div>
+                    <h1>02</h1>
+                    <div>
+                        <h3>Menhir</h3>
+                        <p>Jeu de société "Menhir" sur la base de Java Swing</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projet">
+                <a class="projetHidden" id="projet3" target="_blank" href="https://github.com/cappuccino286/scrapy_conan">
+                    <div class="mask"></div>
+                    <h1>03</h1>
+                    <div>
+                        <h3>scrappy_conan</h3>
+                        <p>Extraction des donnée de BD "Detective Conan"</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projet">
+                <a class="projetHidden" id="projet4" target="_blank" href="#">
+                    <div class="mask"></div>
+                    <h1>04</h1>
+                    <div>
+                        <h3>ICDUTT</h3>
+                        <p>Publications de l'Université de Technologie de Troyes</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projet">
+                <a class="projetHidden" id="projet5" target="_blank" href="https://github.com/cappuccino286/CircuitRV">
+                    <div class="mask"></div>
+                    <h1>05</h1>
+                    <div>
+                        <h3>CircuitRV</h3>
+                        <p>Réalisation des expériences virtuelles autour de l'électricité + QCM</p>
+                    </div>
+                </a>
+            </div>
         </div>
-   </div>
-   <footer>
+    </div>
+    <footer>
         <div class="container text-center">
             <ul>
                 <li>
-                    <a href="https://www.facebook.com/syhung.nghiem.5"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i> Facebook</a>
+                    <a href="https://www.linkedin.com/in/sy-hung-nghiem/">
+                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> LinkedIn</a>
                 </li>
                 <li>
-                    <a href="https://cappuccino286.github.io"><i class="fa fa-github fa-2x" aria-hidden="true"></i> Github</a>
+                    <a href="https://github.com/cappuccino286">
+                        <i class="fa fa-github fa-2x" aria-hidden="true"></i> Github</a>
                 </li>
             </ul>
             <ul>
-                <li><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i> sy_hung.nghiem@utt.fr
-                <li><i class="fa fa-phone fa-2x" aria-hidden="true"></i> (+33) 664781549</li>
+                <li>
+                    <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i> sy_hung.nghiem@utt.fr
+                    <li><i class="fa fa-phone fa-2x" aria-hidden="true"></i> (+33) 664781549</li>
             </ul>
-            <h3>© 2017 Sy Hung NGHIEM</h3>
+            <h3>© 2018 Sy Hung NGHIEM</h3>
         </div>
-   </footer>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <script src="js/alphabet.js"></script> 
-   <script src="js/bubbles.js"></script> 
-   <script src="js/script.js"></script> 
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/alphabet.js"></script>
+    <script src="js/bubbles.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
